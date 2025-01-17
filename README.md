@@ -1,4 +1,5 @@
-# Assignment 2: Web Scraping Travel Website
+# Python-Based-Flight-Data-Scraping-Automating-Data-Collection-for-for-Analysis
+
 
 This project is a Python-based web scraping script designed to extract flight details from the Yatra travel website. The extracted data includes flight pricing, origin, destination, departure and arrival times, and duration. The data is then saved into a CSV file for further analysis or reporting.
 
@@ -106,6 +107,8 @@ The script generates a CSV file (`flight_data.csv`) with the following columns:
    - A bar chart comparing average prices across airlines.
 3. **Flight Duration Trends**:
    - A line plot to observe how flight durations vary with stops.
+
+     
 ![image](https://github.com/user-attachments/assets/7540987d-17d0-46f0-91db-d7e8bca6590f)
 
 ![image](https://github.com/user-attachments/assets/1fca856b-4fed-4523-bfc9-dfdc2261c6ce)
