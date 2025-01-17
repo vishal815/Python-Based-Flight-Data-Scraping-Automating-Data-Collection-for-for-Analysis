@@ -28,6 +28,7 @@ The main objective of this assignment is to:
 - **Flight Details Extraction**: Extracts key information such as airline names, times, airports, flight duration, stops, and prices.
 - **Data Cleaning**: Handles formatting and cleaning of data, such as removing unnecessary characters (e.g., `+1 Day`).
 - **CSV Export**: Saves the extracted data into a CSV file for easy access and further analysis.
+- **Data Visualization**: Enhances the presentation of extracted data using plots and graphs to provide insights into flight trends.
 
 ---
 
@@ -42,7 +43,7 @@ Make sure you have the following installed:
 ### Python Libraries
 Install the required Python libraries using the following command:
 ```bash
-pip install selenium beautifulsoup4 pandas
+pip install selenium beautifulsoup4 pandas matplotlib seaborn
 ```
 
 ---
@@ -59,49 +60,16 @@ pip install selenium beautifulsoup4 pandas
 4. **Extract Flight Details**:
    - Scrapes flight details such as airline names, times, prices, and other relevant information.
 5. **Data Cleaning**:
-   - Cleans and formats the extracted data to ensure accuracy.
+   - Cleans and formats the extracted data.
 6. **Save to CSV**:
    - Stores the extracted data in a CSV file for further use.
+7. **Visualize Data**:
+   - Uses Python libraries like Matplotlib and Seaborn to create visual representations of the data, such as:
+     - Bar charts for price comparison between airlines.
+     - Line plots for flight duration trends.
 
 ---
 
-## Code Snippet
-Below is a brief overview of the core functionality:
-
-```python
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from bs4 import BeautifulSoup
-import pandas as pd
-import time
-import re
-
-# Set up Selenium WebDriver
-chromedriver_path = "path/to/chromedriver"
-service = Service(chromedriver_path)
-driver = webdriver.Chrome(service=service)
-
-# URL to scrape
-url = "https://flight.yatra.com/air-search-ui/int2/trigger?flex=0&viewName=normal&source=fresco-flights&type=O&class=Economy&ADT=1&CHD=0&INF=0&noOfSegments=1&origin=DEL&originCountry=IN&destination=DXB&destinationCountry=AE&flight_depart_date=18/01/2025&arrivalDate="
-
-driver.get(url)
-time.sleep(14)  # Wait for the page to load
-html_content = driver.page_source
-driver.quit()
-
-# Parse HTML with BeautifulSoup
-soup = BeautifulSoup(html_content, 'html.parser')
-
-# Extract flight details
-flight_data = []
-flight_containers = soup.find_all('div', class_='airline-holder clearfix')
-
-for container in flight_containers:
-    pass  # Add extraction logic here
-
-# Save to CSV
-pd.DataFrame(flight_data).to_csv('flight_data.csv', index=False)
-```
 
 ---
 
@@ -117,10 +85,27 @@ The script generates a CSV file (`flight_data.csv`) with the following columns:
 - Price
 
 ### Example Output
-| Airline           | Departure Time | Departure Airport | Arrival Time | Arrival Airport | Flight Duration | Stops    | Price   |
+| Airline           | Departure Time | Departure Airport | Arrival Time | Arrival Airport | Flight Duration | Stops    | Price (INR)   |
 |-------------------|----------------|-------------------|--------------|-----------------|-----------------|----------|---------|
 | Srilankan Airlines| 18:35          | DEL               | 21:50        | DXB             | 28h 45m         | 1 Stop   | 25,662  |
 | IndiGo            | 17:30          | DEL               | 14:35        | SHJ             | 22h 35m         | 1 Stop   | 25,677  |
+
+---
+
+## Data Visualization
+### Why Visualize?
+- Visualization makes it easier to identify trends and patterns in the flight data.
+- Provides actionable insights for travel planning, such as:
+  - Identifying the most cost-effective airline.
+  - Observing peak travel times.
+
+### Example Visualizations
+1. **Price Distribution**:
+   - A histogram to display the frequency of flight prices.
+2. **Airline Comparison**:
+   - A bar chart comparing average prices across airlines.
+3. **Flight Duration Trends**:
+   - A line plot to observe how flight durations vary with stops.
 
 ---
 
@@ -128,15 +113,14 @@ The script generates a CSV file (`flight_data.csv`) with the following columns:
 1. **Dynamic Loading**:
    - The website uses JavaScript to dynamically load flight details, requiring Selenium for rendering.
 2. **Data Cleaning**:
-   - Formatting time strings and handling cases like `+1 Day` or `+0 Day (Non Stop)`.
+   - Formatting time strings and handling cases like `+1 Day` or `+0 Day`.
 
 ---
 
 ## Future Enhancements
+- Add error handling for network or browser-related issues.
 - Automate handling of dynamic date and destination inputs.
 - Enhance scraping to include additional data such as baggage allowance.
 
 ---
-
-This project is for educational purposes only.
 
