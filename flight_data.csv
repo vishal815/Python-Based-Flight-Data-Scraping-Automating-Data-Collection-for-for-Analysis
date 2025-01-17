@@ -1,0 +1,98 @@
+Airline,Departure Time,Departure Airport,Arrival Time,Arrival Airport,Flight Duration,Stops,Price
+IndiGo,19:00,New Delhi,14:35,Sharjah,21h 05m,1 Stop,2623100
+Air Arabia,18:20,New Delhi,20:50,Sharjah,4h 00m,0 Stops,2688400
+IndiGo,21:30,New Delhi,00:55,Sharjah,28h 55m,1 Stop,2826700
+IndiGo,07:55,New Delhi,13:25,Abu Dhabi,7h 00m,1 Stop,2968800
+IndiGo,18:45,New Delhi,03:10,Abu Dhabi,9h 55m,1 Stop,2972300
+AirIndia Express,15:10,New Delhi,03:15,Dubai,13h 35m,1 Stop,3004600
+IndiGo,20:35,New Delhi,03:10,Abu Dhabi,8h 05m,1 Stop,3014300
+AirIndia Express,13:50,New Delhi,23:15,Abu Dhabi,10h 55m,1 Stop,3223300
+SpiceJet,07:20,New Delhi,10:10,Dubai,4h 20m,0 Stops,3243800
+Oman Air,10:20,New Delhi,15:35,Dubai,6h 45m,1 Stop,3276200
+Gulf Air,21:35,New Delhi,03:35,Dubai,7h 30m,1 Stop,3451400
+IndiGo,17:20,New Delhi,01:35,Abu Dhabi,9h 45m,1 Stop,3458600
+Srilankan Airlines,18:35,New Delhi,21:50,Dubai,28h 45m,1 Stop,3527000
+Emirates,04:10,New Delhi,06:35,Dubai,3h 55m,0 Stops,3671400
+Etihad Airways,08:55,New Delhi,16:50,Dubai,9h 25m,1 Stop,3677600
+AirIndia Express,06:40,New Delhi,17:05,Dubai,11h 55m,1 Stop,3678100
+Emirates,10:35,New Delhi,13:00,Dubai,3h 55m,0 Stops,3713300
+Etihad Airways,20:55,New Delhi,02:15,Dubai,6h 50m,1 Stop,3722300
+IndiGo,23:55,New Delhi,22:40,Ras Al Khaimah,24h 15m,1 Stop,3824200
+Etihad Airways,04:25,New Delhi,10:00,Dubai,7h 05m,1 Stop,3855600
+IndiGo,01:00,New Delhi,09:15,Dubai,9h 45m,1 Stop,4066700
+Air India,20:10,New Delhi,22:45,Dubai,4h 05m,0 Stops,4148500
+IndiGo,10:45,New Delhi,01:25,Ras Al Khaimah,16h 10m,1 Stop,4175900
+AirIndia Express,10:00,New Delhi,16:00,Dubai,7h 30m,1 Stop,4179200
+AirIndia Express,05:20,New Delhi,22:25,Abu Dhabi,18h 35m,1 Stop,4205900
+Etihad Airways,16:30,New Delhi,22:40,Dubai,7h 40m,1 Stop,4227800
+Emirates,16:15,New Delhi,18:35,Dubai,3h 50m,0 Stops,4234200
+AirIndia Express,05:20,New Delhi,21:05,Dubai,17h 15m,1 Stop,4266600
+IndiGo,17:10,New Delhi,19:50,Dubai,4h 10m,0 Stops,4332400
+IndiGo,20:00,New Delhi,02:25,Abu Dhabi,7h 55m,1 Stop,4391000
+IndiGo,22:30,New Delhi,21:40,Sharjah,24h 40m,1 Stop,4424500
+IndiGo,20:35,New Delhi,23:20,Abu Dhabi,4h 15m,0 Stops,4425800
+IndiGo,14:15,New Delhi,22:55,Abu Dhabi,10h 10m,1 Stop,4441100
+IndiGo,18:25,New Delhi,21:40,Sharjah,28h 45m,1 Stop,4456000
+Saudi Arabian Airlines,18:30,New Delhi,03:00,Dubai,10h 00m,1 Stop,4470400
+IndiGo,18:25,New Delhi,01:25,Ras Al Khaimah,8h 30m,1 Stop,4473600
+SpiceJet,22:00,New Delhi,11:55,Dubai,15h 25m,1 Stop,4509000
+IndiGo,17:00,New Delhi,21:40,Sharjah,30h 10m,1 Stop,4529500
+IndiGo,17:00,New Delhi,01:25,Ras Al Khaimah,9h 55m,1 Stop,4547100
+IndiGo,21:30,New Delhi,21:40,Sharjah,25h 40m,1 Stop,4571500
+IndiGo,22:15,New Delhi,04:05,Dubai,7h 20m,1 Stop,4579900
+AirIndia Express,16:05,New Delhi,05:30,Sharjah,14h 55m,1 Stop,4610700
+Kuwait Airways,07:00,New Delhi,21:55,Dubai,16h 25m,1 Stop,4667800
+IndiGo,15:30,New Delhi,01:25,Ras Al Khaimah,11h 25m,1 Stop,4683600
+IndiGo,19:00,New Delhi,02:25,Abu Dhabi,8h 55m,1 Stop,4715300
+IndiGo,20:15,New Delhi,21:40,Sharjah,26h 55m,1 Stop,4718500
+SpiceJet,05:25,New Delhi,00:45,Dubai,20h 50m,1 Stop,4780200
+AirIndia Express,07:00,New Delhi,23:15,Abu Dhabi,17h 45m,1 Stop,4786000
+IndiGo,12:15,New Delhi,01:25,Ras Al Khaimah,14h 40m,1 Stop,4799100
+SpiceJet,21:40,New Delhi,00:55,Dubai,28h 45m,1 Stop,4839000
+IndiGo,18:00,New Delhi,02:25,Abu Dhabi,9h 55m,1 Stop,4842500
+Air India,09:45,New Delhi,12:20,Dubai,4h 05m,0 Stops,4994600
+IndiGo,15:00,New Delhi,21:40,Abu Dhabi,8h 10m,1 Stop,5074100
+Kuwait Airways,03:00,New Delhi,12:20,Dubai,10h 50m,1 Stop,5259400
+SpiceJet,05:25,New Delhi,03:55,Dubai,24h 00m,1 Stop,5273600
+IndiGo,14:00,New Delhi,21:40,Abu Dhabi,9h 10m,1 Stop,5362600
+Fly Dubai,10:50,New Delhi,13:30,Dubai,4h 10m,0 Stops,5667400
+Egyptair,11:20,New Delhi,09:00,Sharjah,23h 10m,1 Stop,5870000
+Ethiopian Airlines,09:35,New Delhi,02:55,Dubai,18h 50m,1 Stop,5989300
+Air India,06:05,New Delhi,08:35,Dubai,4h 00m,0 Stops,6109700
+IndiGo,08:35,New Delhi,11:15,Dubai,4h 10m,0 Stops,6151000
+IndiGo,18:35,New Delhi,02:15,Dubai,9h 10m,1 Stop,6164000
+SpiceJet,18:55,New Delhi,03:55,Dubai,10h 30m,1 Stop,6276400
+Srilankan Airlines,05:10,New Delhi,15:55,Sharjah,12h 15m,2 Stops,6286000
+IndiGo,09:00,New Delhi,17:20,Dubai,9h 50m,1 Stop,6295500
+Qatar Airways,09:55,New Delhi,20:55,Dubai,12h 30m,1 Stop,6334800
+Qatar Airways,09:55,New Delhi,03:50,Dubai,19h 25m,1 Stop,6357400
+IndiGo,20:00,New Delhi,04:00,Dubai,9h 30m,1 Stop,6425900
+IndiGo,10:00,New Delhi,17:20,Dubai,8h 50m,1 Stop,6458400
+Kuwait Airways,03:00,New Delhi,17:55,Dubai,16h 25m,1 Stop,6683200
+IndiGo,21:00,New Delhi,04:00,Dubai,8h 30m,1 Stop,6750200
+Flynas,04:10,New Delhi,11:50,Dubai,9h 10m,1 Stop,7123100
+IndiGo,14:00,New Delhi,20:25,Dubai,7h 55m,1 Stop,7166000
+IndiGo,13:00,New Delhi,20:25,Dubai,8h 55m,1 Stop,7328800
+Air India,15:30,New Delhi,21:55,Dubai,7h 55m,1 Stop,7542700
+Air India,10:55,New Delhi,18:15,Dubai,8h 50m,1 Stop,7549500
+Flynas,04:10,New Delhi,17:15,Sharjah,38h 35m,2 Stops,7734300
+Flynas,04:10,New Delhi,17:15,Sharjah,38h 35m,2 Stops,7774800
+Flynas,04:10,New Delhi,17:15,Sharjah,14h 35m,2 Stops,7775200
+Srilankan Airlines,18:35,New Delhi,10:15,Sharjah,17h 10m,2 Stops,7798000
+Flynas,04:10,New Delhi,17:15,Sharjah,38h 35m,2 Stops,7889100
+Flynas,04:10,New Delhi,17:15,Sharjah,38h 35m,2 Stops,8012500
+Flynas,04:10,New Delhi,17:15,Sharjah,38h 35m,2 Stops,8073900
+Qatar Airways,03:40,New Delhi,10:20,Dubai,8h 10m,1 Stop,8086800
+Qatar Airways,03:40,New Delhi,20:55,Dubai,18h 45m,1 Stop,8109400
+Flynas,04:10,New Delhi,17:15,Sharjah,38h 35m,2 Stops,8156900
+Flynas,04:10,New Delhi,17:15,Sharjah,38h 35m,2 Stops,8309300
+Singapore Airlines,22:00,New Delhi,18:45,Dubai,22h 15m,1 Stop,9303300
+Egyptair,11:20,New Delhi,03:45,Dubai,17h 55m,1 Stop,10473800
+Egyptair,11:20,New Delhi,15:00,Dubai,29h 10m,1 Stop,10487300
+Egyptair,11:20,New Delhi,19:00,Dubai,33h 10m,1 Stop,12006300
+Egyptair,11:20,New Delhi,01:50,Sharjah,16h 00m,1 Stop,12121100
+Qatar Airways,03:40,New Delhi,10:15,Sharjah,8h 05m,1 Stop,12821700
+Qatar Airways,03:40,New Delhi,20:25,Sharjah,18h 15m,1 Stop,12844300
+Srilankan Airlines,18:35,New Delhi,15:55,Sharjah,22h 50m,2 Stops,13531500
+Srilankan Airlines,18:35,New Delhi,20:25,Sharjah,27h 20m,2 Stops,15190500
+Srilankan Airlines,18:35,New Delhi,20:25,Sharjah,27h 20m,2 Stops,15213100
