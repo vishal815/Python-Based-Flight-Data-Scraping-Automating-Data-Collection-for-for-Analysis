@@ -22,6 +22,7 @@ The main objective of this assignment is to:
 [Yatra Travel Website](https://www.yatra.com/react-home?utm_source=google&utm_medium=search&utm_campaign=brand&_gcl&utm_source=google&utm_medium=cpc&utm_campaign=&gad_source=1&gclid=CjwKCAiAnKi8BhB0EiwA58DA4Zz-7jGgd_iYFy2_G24BxbawgSlicnOm4iTH-cmkuU-DhZODRfFNjhoCEDgQAvD_BwE)
 
 ---
+![image](https://github.com/user-attachments/assets/9dc2e4a9-c43f-4124-88e1-f64e8b2db8cc)
 
 ## Features
 - **Automated Web Scraping**: Uses Selenium and BeautifulSoup to navigate and parse the website's HTML content.
@@ -93,7 +94,6 @@ The script generates a CSV file (`flight_data.csv`) with the following columns:
 ---
 
 ## Data Visualization
-### Why Visualize?
 - Visualization makes it easier to identify trends and patterns in the flight data.
 - Provides actionable insights for travel planning, such as:
   - Identifying the most cost-effective airline.
@@ -106,6 +106,10 @@ The script generates a CSV file (`flight_data.csv`) with the following columns:
    - A bar chart comparing average prices across airlines.
 3. **Flight Duration Trends**:
    - A line plot to observe how flight durations vary with stops.
+![image](https://github.com/user-attachments/assets/7540987d-17d0-46f0-91db-d7e8bca6590f)
+
+![image](https://github.com/user-attachments/assets/1fca856b-4fed-4523-bfc9-dfdc2261c6ce)
+
 
 ---
 
@@ -123,4 +127,4 @@ The script generates a CSV file (`flight_data.csv`) with the following columns:
 - Enhance scraping to include additional data such as baggage allowance.
 
 ---
-
+Vishal Lazrus
